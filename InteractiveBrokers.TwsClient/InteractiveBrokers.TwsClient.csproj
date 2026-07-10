@@ -3,6 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <PackageId>OpenTws.IbApi</PackageId>
+    <Version>9.79.1</Version>
+    <Description>Interactive Brokers' official C# TWS API client, repackaged for modern .NET. Part of the OpenTWS project. Unofficial; not affiliated with Interactive Brokers. Previously published as InteractiveBrokers.TwsClient.</Description>
+    <PackageProjectUrl>https://github.com/OpenTWS/ib-api-dotnet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/OpenTWS/ib-api-dotnet</RepositoryUrl>
+    <PackageTags>interactive-brokers;tws;ibkr;trading;api</PackageTags>
   </PropertyGroup>
 
 </Project>
