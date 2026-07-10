@@ -50,4 +50,4 @@ jobs:
           user: ${{ secrets.NUGET_USERNAME }}
 
       - name: Push OpenTws.IbApi
-        run: dotnet nuget push artifacts/OpenTws.IbApi.*.nupkg --skip-duplicate --api-key ${{ steps.login.outputs.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json
+        run: dotnet nuget push (Get-Item artifacts/OpenTws.IbApi.*.nupkg).FullName --skip-duplicate --api-key ${{ steps.login.outputs.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json
